@@ -4,8 +4,8 @@ from django.shortcuts import render
 def doctors(request):
     return render(request, 'doctors.html')
 
-def staff-nurse(request):
-    return render(request, 'staff-nurse.html')
+def staff_nurse(request):
+    return render(request, 'staff_nurse.html')
 
 def attender(request):
     return render(request, attender.html)
